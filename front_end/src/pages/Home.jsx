@@ -94,6 +94,42 @@ const destinasiData = [
     durasi: '2h 20m dari Jakarta'
   },
   {
+    id: 'Raja Ampat',
+    nama: 'Raja Ampat',
+    kode: 'AHI',
+    tagline: 'Pintu Nusa Tenggara',
+    harga: 'Rp 900.000',
+    gambar: '/destinasi/Raja Ampat.jpg',
+    deskripsi: 'Raja Ampat adalah surga bawah air yang terletak di kepulauan Papua. Dikenal dengan keanekaragaman hayati lautnya yang luar biasa, termasuk terumbu karang dan ikan tropis yang langka.',
+    highlights: ['Snorkeling & Diving', 'Pantai Pasir Putih', 'Kepulauan Geger', 'Resort Laut'],
+    waktuTerbaik: 'Oktober - April',
+    durasi: '5- 7hari dari Jakarta'
+  },
+  {
+    id: 'malang & batu',
+    nama: 'Malang & Batu',
+    kode: 'MLG',
+    tagline: 'Kota Pahlawan',
+    harga: 'Rp 420.000',
+    gambar: '/destinasi/malang batu.jpg',
+    deskripsi: 'Wilayah ini dikenal karena udaranya yang dingin dan cocok untuk wisata keluarga. Kota Batu penuh dengan taman hiburan modern seperti Jatim Park dan Museum Angkut. Dari sini, Anda juga bisa menuju Gunung Bromo untuk melihat matahari terbit dan kawahnya yang fenomenal.',
+    highlights: ['Sunrise di Penanjakan Bromo', 'Kebun Apel', 'Museum Angkut (Koleksi Mobil Antik)', 'Jatim Park'],
+    waktuTerbaik: 'Juli - September',
+    durasi: '3h 20m dari Jakarta'
+  },
+  {
+    id: 'Labuan Bajo',
+    nama: 'Labuan Bajo',
+    kode: 'LBJ',
+    tagline: 'Pintu Nusa Tenggara',
+    harga: 'Rp 567.000',
+    gambar: '/destinasi/laboan bajo.jpg',
+    deskripsi: 'ini adalah destinasi impian bagi pecinta petualangan bahari. Aktivitas utamanya adalah LOB (Live on Board) atau menginap di kapal sambil mengunjungi Pulau Padar untuk melihat pemandangan tiga teluk, Pantai Pink, dan melihat Komodo di habitat aslinya.',
+    highlights: ['Island Hopping', 'Trekking Pulau Padar', 'Pink Beach', 'Snorkeling bersama Manta Ray'],
+    waktuTerbaik: 'Juni - September',
+    durasi: '3- 4hari dari Jakarta'
+  },
+  { 
     id: 'medan',
     nama: 'Medan',
     kode: 'KNO',
@@ -104,7 +140,79 @@ const destinasiData = [
     highlights: ['Danau Toba', 'Istana Maimun', 'Masjid Raya Medan', 'Bukit Lawang'],
     waktuTerbaik: 'Mei - September',
     durasi: '2h 15m dari Jakarta'
-  }
+  },
+  {
+    id: 'Gunung Bromo',
+    nama: 'Gunung Bromo',
+    kode: 'BMO',
+    tagline: 'Tanah Pasir dan Api.',
+    harga: 'Rp 450.000',
+    gambar: '/destinasi/Gunung Bromo.jpg  ',
+    deskripsi: 'Bagian dari Taman Nasional Bromo Tengger Semeru yang menawarkan lanskap kawah aktif di tengah lautan pasir yang luas.',
+    highlights: ['Matahari terbit dari Penanjakan 1, mendaki kawah Bromo, dan berkuda di Pasir Berbisik.'],
+    waktuTerbaik: 'Juli - Agustus',
+    durasi: '2 - 3 Hari.dari Jakarta'
+  },
+  {
+    id: 'Danau Toba',
+    nama: 'Danau Toba',
+    kode: 'TBA',
+    tagline: 'Danau Terbesar di Indonesia',
+    harga: 'Rp 650.000',
+    gambar: '/destinasi/danau toba.jpg',
+    deskripsi: ': Danau vulkanik purba terbesar di dunia dengan Pulau Samosir di tengahnya, pusat kebudayaan Batak yang kaya.',
+    highlights: ['Desa Tomok, Bukit Holbung untuk melihat lanskap danau, dan Air Terjun Sipiso-piso.'],
+    waktuTerbaik: 'Mei - Oktober',
+    durasi: '3-4 Hari. dari Jakarta'
+  },
+  {
+    id: 'Likupang',
+    nama: 'Likupang',
+    kode: 'LKP',
+    tagline: 'Kota Pesisir yang Indah',
+    harga: 'Rp 400.000',
+    gambar: '/destinasi/Likupang.jpg',
+    deskripsi: 'Destinasi super prioritas terbaru dengan pantai pasir putih yang masih sangat tenang dan jernih.',
+    highlights: ['Pantai Pulisan, Bukit Larata, dan snorkeling di Pulau Lihaga.'],
+    waktuTerbaik: 'April - September',
+    durasi: '3 Hari.dari Jakarta'
+  },
+  {
+    id: 'Kepulauan Bangka Belitung',
+    nama: 'Kepulauan Bangka Belitung',
+    kode: 'TJQ',
+    tagline: 'Tanah Para Raja Surgawi.',
+    harga: 'Rp 780.000',
+    gambar: '/destinasi/Bangka Belitung.jpg',
+    deskripsi: 'Terkenal dengan formasi batu granit raksasa di pinggir pantai yang memberikan pemandangan artistik alami.',
+    highlights: ['Pantai Tanjung Tinggi, Pulau Lengkuas dengan mercusuar tua, dan Danau Kaolin.'],
+    waktuTerbaik: 'Maret - September',
+    durasi: '3 Hari.dari Jakarta'
+  },
+  {
+    id: 'Tana Toraja',
+    nama: 'Tana Toraja',
+    kode: 'TLK',
+    tagline: 'Tanah Para Raja Surgawi.',
+    harga: 'Rp 780.000',
+    gambar: '/destinasi/tana toraja.jpg',
+    deskripsi: 'Wilayah dataran tinggi dengan arsitektur rumah Tongkonan yang unik dan tradisi penghormatan leluhur yang mendalam.',
+    highlights: ['Lemo (makam di dinding tebing), Londa (gua makam), dan upacara adat Rambu Solo.'],
+    waktuTerbaik: 'Juni - September',
+    durasi: '3 - 4 Hari.dari Jakarta'
+  },
+  {
+    id: 'Kepulauan Derawan',
+    nama: 'Kepulauan Derawan',
+    kode: 'TKQ',
+    tagline: 'Tanah Para Raja Surgawi.',
+    harga: 'Rp 780.000',
+    gambar: '/destinasi/Derawan.jpg',
+    deskripsi: 'Surga tropis di Kalimantan yang menjadi rumah bagi penyu hijau dan ubur-ubur tanpa sengat.',
+    highlights: ['Berenang bersama ubur-ubur di Danau Kakaban, diving di Pulau Maratua, dan melihat penyu di Pulau Sangalaki.'],
+    waktuTerbaik: 'Maret - Oktober',
+    durasi: '4 - 5 Hari.dari Jakarta'
+  },
 ];
 
 // ============================================================================

@@ -67,7 +67,7 @@ const teamMembers = [
     nama: 'Salwa',
     jabatan: 'Frontend Developer',
     avatar: 'SW',
-    color: '#ef4444',
+    color: '#f59e0b',
     deskripsi: 'Mendesain komponen UI modern dan memastikan konsistensi visual di seluruh platform.',
     linkedin: '#',
     twitter: '#'
@@ -90,7 +90,7 @@ const valuesData = [
 // ============================================================================
 
 const milestonesData = [
-  { year: '2026', title: 'Lahirnya SkyBooking', desc: 'SkyBooking didirikan oleh tim mahasiswa STT Terpadu Nurul Fikri dengan semangat inovasi' }
+  { year: '2026', title: 'Lahirnya SkyBooking', desc: 'SkyBooking didirikan oleh tim mahasiswa STT Terpadu Nurul Fikri dengan semangat inovasi, memadukan keahlian pengembangan web terkini dan desain antarmuka yang intuitif untuk menciptakan pengalaman pengguna yang mulus' }
 ];
 
 // ============================================================================
