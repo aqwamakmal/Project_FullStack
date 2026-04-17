@@ -36,16 +36,16 @@ mysql -u root -p sky_booking < database/seeds/001_sample_data_mysql.sql
 
 ### 📊 8 Tabel Utama
 
-| Tabel | Deskripsi |
-|-------|-----------|
-| **users** | User/pengguna aplikasi (register & login) |
-| **airlines** | Data maskapai penerbangan |
-| **airports** | Data bandara/terminal penerbangan |
-| **flights** | Data penerbangan (jadwal, harga, seat) |
-| **bookings** | Record pemesanan tiket |
-| **passengers** | Data penumpang dalam booking |
-| **booking_passengers** | Junction table (relasi booking & passengers) |
-| **reviews** | Review/rating penerbangan |
+| No | Tabel | Kolom | Deskripsi |
+|:--:|-------|-------|-----------|
+| 1 | **users** | 17 | Akun pengguna (register/login) - Email, Password, NIK, Bio Data |
+| 2 | **airlines** | 9 | Maskapai penerbangan - Kode, Nama, Logo, Jumlah Pesawat |
+| 3 | **airports** | 9 | Bandara/Terminal - Kode IATA, Nama, Lokasi, Timezone |
+| 4 | **flights** | 18 | Jadwal Penerbangan - Nomor, Rute, Waktu, Harga (Economy/Business/First Class) |
+| 5 | **bookings** | 14 | Pemesanan Tiket - Booking Code, Status, Pembayaran, Total Harga |
+| 6 | **passengers** | 11 | Data Penumpang - Nama, NIK, Paspor, Tipe Tiket, Check-in Status |
+| 7 | **booking_passengers** | 10 | Relasi Booking ↔ Penumpang - Seat, Bagasi, Meal, Layanan Khusus |
+| 8 | **reviews** | 9 | Review/Rating - Rating 1-5, Comment, Helpful Count |
 
 ### 🔑 Relationships
 
