@@ -329,7 +329,9 @@ function FlightDetail() {
 
                 {/* Info Maskapai */}
                 <div className="is-flex is-align-items-center mb-4">
-                  <span className="is-size-1 mr-3">{flight.logo}</span>
+                  <figure className="image is-48x48 mr-3" style={{ background: 'white', borderRadius: '8px', padding: '4px' }}>
+                    <img src={flight.logo} alt={flight.airlineName} />
+                  </figure>
                   <div>
                     <p className="has-text-weight-bold">{flight.airlineName}</p>
                     <p className="is-size-7 has-text-grey">{flight.flightNumber}</p>
